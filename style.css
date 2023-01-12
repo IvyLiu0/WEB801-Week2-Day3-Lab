@@ -44,7 +44,7 @@ nav ul li.active a{
 
 
 
-/* body */
+/* index body */
 body {
     background-image: url(images/logo-bg.png);
 }
@@ -119,8 +119,6 @@ input[type="reset"]{
 }
 
 
-
-
 /*footer*/
 footer{
     width: 100%;
@@ -175,4 +173,104 @@ footer #nondisclaimer .social .fa-twitter {
 footer #nondisclaimer .social .fa-instagram {
     background: #125688;
     color: white;
+}
+
+
+/* Adoption Dog */
+/* #adoptiondog {
+    text-align: center;
+} */
+#adoptiondog h1 {
+    text-align: center;
+    color: #13124e;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    width: 1000px;
+    margin: 4em auto 0 auto;
+}
+table, caption, th, td {
+    border: 2px solid #6766bd;
+}
+th, td{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+}
+th {
+    color: #6766bd;
+}
+td:first-child{
+    color: #6766bd;
+}
+caption {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: x-large;
+    height: 40px;
+    padding-top: 15px;
+    color: #13124e;
+}
+.eightdogs{
+    text-align: center;
+    margin-left: 190px;
+}
+.dogname {
+    background-color: #c0bfff;
+    width: 280px;
+    color: #13124e;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 12px;
+    position: top;
+}
+.dogbox {
+    text-align: center;
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+.dogbox:nth-child(6){
+    padding-bottom: 80px;
+}
+footer{
+    clear: both;
+}
+
+
+
+/* Adoption Cat */
+/* #adoptioncat {
+    text-align: center;
+} */
+#adoptioncat h1 {
+    text-align: center;
+    color: #13124e;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.eightcats{
+    text-align: center;
+    margin-left: 190px;
+}
+.catname {
+    background-color: #c0bfff;
+    width: 280px;
+    color: #13124e;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 12px;
+    position: top;
+}
+.catbox {
+    text-align: center;
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+.catbox:nth-child(6){
+    padding-bottom: 80px;
 }
