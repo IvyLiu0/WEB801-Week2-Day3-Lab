@@ -43,6 +43,9 @@ nav ul li.active a{
 
 
 /* body */
+body {
+    background-image: url(images/logo-bg.png);
+}
 #home h1 {
     text-align: center;
     color: #13124e;
@@ -52,13 +55,13 @@ nav ul li.active a{
 #home h3 {
     text-align: center;
     color: #6766bd;;
-    margin: 0 300px;
+    margin: 0 200px;
     padding-bottom: 20px;
 }
 #home p {
     text-align: center;
     color: #6766bd;;
-    margin: 0 300px;
+    margin: 0 200px;
     padding-bottom: 20px;
 }
 .choice {
